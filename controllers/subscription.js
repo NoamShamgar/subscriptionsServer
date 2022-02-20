@@ -1,4 +1,4 @@
-const {getAllSubscriptions_DAL,getMemberSubscription_DAL, addSubscription_DAL,updateSubscription_DAL,deleteSubscription_DAL,addMovieToSubscription_DAL} = require("../DAL/SubscriptionsDB");
+const {getAllSubscriptions_DAL,getMemberSubscription_DAL, addSubscription_DAL,updateSubscription_DAL,deleteSubscription_DAL,addMovieToSubscription_DAL} = require("../DAL/subscriptionsDB");
 
 const getAllSubscriptions = async () => {
     return await getAllSubscriptions_DAL();

@@ -1,5 +1,5 @@
 const express = require("express");
-const {getAllSubscriptions,getSubscription, addSubscription,updateSubscription,deleteSubscription,addMovieToSubscription} = require("../controllers/Subscription");
+const {getAllSubscriptions,getSubscription, addSubscription,updateSubscription,deleteSubscription,addMovieToSubscription} = require("../controllers/subscription");
 const { checkIfIdExist } = require("../helpers/checkExistence");
 
 

@@ -1,6 +1,6 @@
 const {getAllMembers_DAL,getMember_DAL, addMember_DAL,updateMember_DAL,deleteMember_DAL} = require("../DAL/membersDB");
 const {getAllSubscriptions_DAL,deleteMemberSubscription_DAL} = require("../DAL/subscriptionsDB");
-const {getAllMovies_DAL} = require("../DAL/MoviesDB");
+const {getAllMovies_DAL} = require("../DAL/moviesDB");
 
 
 const getAllMembers = async () => {

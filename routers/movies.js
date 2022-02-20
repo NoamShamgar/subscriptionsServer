@@ -1,5 +1,5 @@
 const express = require("express");
-const {getAllMovies,getAllMoviesWithMembersWatched,getMovie, addMovie,updateMovie,deleteMovie} = require("../controllers/Movie");
+const {getAllMovies,getAllMoviesWithMembersWatched,getMovie, addMovie,updateMovie,deleteMovie} = require("../controllers/movie");
 const { checkIfIdExist } = require("../helpers/checkExistence");
 
 

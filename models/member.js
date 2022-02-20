@@ -1,6 +1,5 @@
 const mongoose = require("mongoose");
 
-
 const memberSchema = mongoose.Schema({
     name:String,
     email:String,

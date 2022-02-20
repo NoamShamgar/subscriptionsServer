@@ -1,6 +1,5 @@
 const mongoose = require("mongoose");
 
-
 const subscriptionsSchema = mongoose.Schema({
     memberId:mongoose.ObjectId,
     movies:[{movieId:String,watchDate:Date}]
