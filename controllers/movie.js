@@ -1,4 +1,4 @@
-const {getAllMovies_DAL,getMovie_DAL, addMovie_DAL,updateMovie_DAL,deleteMovie_DAL} = require("../DAL/MoviesDB");
+const {getAllMovies_DAL,getMovie_DAL, addMovie_DAL,updateMovie_DAL,deleteMovie_DAL} = require("../DAL/moviesDB");
 const { getAllMembers_DAL } = require("../DAL/membersDB");
 const {getAllSubscriptions_DAL,deleteMovieFromAllSubscriptions_DAL,deleteEmptyMoviesDocuments_DAL} = require("../DAL/subscriptionsDB");
 
