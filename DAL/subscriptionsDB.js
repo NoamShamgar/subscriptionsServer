@@ -1,4 +1,4 @@
-const Subscription = require("../models/Subscription");
+const Subscription = require("../models/subscription");
 
 const getAllSubscriptions_DAL = async () => {
     return await Subscription.find({});
