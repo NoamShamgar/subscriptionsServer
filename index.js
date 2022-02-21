@@ -6,7 +6,7 @@ const app = express();
 require("./config/configDB"); // connecting to DB
 
 
-app.use(cors({origin:"http://localhost:8001"}));
+app.use(cors());
 app.use(express.urlencoded({extended:true}));
 app.use(express.json());
 
